@@ -1,6 +1,5 @@
-'use strict';
-
-
+"use strict";
+const fs = require("fs");
 
 /**
  * navbar toggle
@@ -27,10 +26,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
   });
 }
 
-
-
-
-
 /**
  * back to top & header
  */
@@ -46,3 +41,16 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+// send mail
+
+// function sendmail(form) {
+//   let name = form.name.value;
+//   let email = form.email.value;
+//   let message = form.message.value;
+//   console.log("\n NAME:", name, "EMAIL: ", email, "\n\n\n");
+//   // window.alert(name, mail, message, "being sent");
+//   // fs.writeFile("Output.txt", data, (err) => {
+//   //   if (err) throw err;
+//   // });
+// }

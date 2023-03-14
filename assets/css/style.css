@@ -203,8 +203,12 @@ body {
   background-color: var(--orange-soda);
 }
 
-.btn-primary.orange:is(:hover, :focus) {
+.btn-primary.orange:is(:hover) {
   background-color: var(--rufous);
+}
+
+.btn-primary.orange {
+  background-color: var(--klein-blue);
 }
 
 .img-cover {
