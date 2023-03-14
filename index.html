@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabarinaath S S</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#">
+          <h1 class="logo">Sabarinaath S S</h1>
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="Toggle Menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+
+        <nav class="navbar container">
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="navbar-link" data-nav-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li>
+              <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+
+            <li>
+              <a href="#" target="_blank" class="btn btn-primary orange"
+                >Download CV</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-banner">
+              <img
+                src="./assets/images/passport.jpg"
+                width="900"
+                height="864"
+                loading="lazy"
+                alt="Sabari's Photo"
+                class="img-cover"
+              />
+
+              <!-- <div class="elem elem-1">
+                <p class="elem-title">12</p>
+
+                <p class="elem-text">Years of Success</p>
+              </div> -->
+
+              <div class="elem elem-2">
+                <p class="elem-title">5+</p>
+
+                <p class="elem-text">Projects Completed</p>
+              </div>
+
+              <div class="elem elem-3">
+                <ion-icon name="flash"></ion-icon>
+              </div>
+            </div>
+
+            <div class="hero-content">
+              <h2 class="hero-title">
+                <span>Hello I'm</span>
+                <strong>Sabarinaath S S</strong> Computer science graduate
+              </h2>
+
+              <p class="hero-text">with a passion to learn new things</p>
+
+              <div class="btn-group">
+                <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+                <a href="#about" class="btn btn-primary blue">About Me</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/developer-banner.jpg"
+                width="800"
+                height="652"
+                loading="lazy"
+                alt="Develo Photo"
+                class="img-cover"
+              />
+
+              <div class="abs-icon abs-icon-1">
+                <ion-icon name="logo-python"></ion-icon>
+              </div>
+
+              <div class="abs-icon abs-icon-2">
+                <ion-icon name="logo-javascript"></ion-icon>
+              </div>
+
+              <div class="abs-icon abs-icon-3">
+                <ion-icon name="logo-nodejs"></ion-icon>
+              </div>
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">I'm a Developer</p>
+
+              <h2 class="h2 section-title">
+                I develop applications that make life easier
+              </h2>
+
+              <p class="section-text">
+                Mainly work on projects based on python, c++ and web projects
+                based on HTML, CSS and JavaScript.
+              </p>
+
+              <a href="#portfolio" class="btn btn-primary blue"
+                >View Portfolio</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #PORTFOLIO
+      -->
+
+        <section class="section portfolio" id="portfolio">
+          <div class="container">
+            <p class="section-subtitle">Portfolio</p>
+
+            <h2 class="h2 section-title">My Projects</h2>
+
+            <p class="section-text">
+              Dliquip ex ea commo do conse namber onequa ute irure dolor in
+              reprehen derit in voluptate
+            </p>
+
+            <!-- Projects go here -->
+
+            <ul class="portfolio-list">
+              <li>
+                <!-- Project 1 -->
+                <a
+                  href="https://github.com/sabari50312/FlappyBird"
+                  target="_blank"
+                  class="portfolio-card"
+                  style="background-image: url('./assets/images/flappy.png')"
+                >
+                  <div class="card-content">
+                    <p class="card-subtitle">Flappy Bird</p>
+
+                    <h3 class="h3 card-title">Flappy Bird Clone in Python</h3>
+
+                    <span class="btn-link">
+                      <span>View Project</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <!-- Project 2 -->
+                <a
+                  href="https://github.com/sabari50312/NEAT-FlappyBird"
+                  class="portfolio-card"
+                  target="_blank"
+                  style="background-image: url('./assets/images/neat.png')"
+                >
+                  <div class="card-content">
+                    <p class="card-subtitle">NEAT-FlappyBird</p>
+
+                    <h3 class="h3 card-title">
+                      Reinforcement Learning in Flappy Bird using NEAT
+                    </h3>
+
+                    <span class="btn-link">
+                      <span>View Project</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <!-- Project 3 -->
+                <a
+                  href="https://github.com/sabari50312/Weapon-Detection-YOLOv5"
+                  target="_blank"
+                  class="portfolio-card"
+                  style="background-image: url('./assets/images/yolo.png')"
+                >
+                  <div class="card-content">
+                    <p class="card-subtitle">Weapon-Detection-YOLOv5</p>
+
+                    <h3 class="h3 card-title">
+                      Weapon Detection Computer Vision Model using YOLOv5
+                    </h3>
+
+                    <span class="btn-link">
+                      <span>View Project</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <!-- Project 4 -->
+                <a
+                  href="https://github.com/sabari50312/to-do-list"
+                  target="_blank"
+                  class="portfolio-card"
+                  style="background-image: url('./assets/images/todo.png')"
+                >
+                  <div class="card-content">
+                    <p class="card-subtitle">To-Do-List</p>
+
+                    <h3 class="h3 card-title">
+                      To-Do-List Front End using HTML, CSS and JavaScript
+                    </h3>
+
+                    <span class="btn-link">
+                      <span>View Project</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #SKILLS
+      -->
+
+        <section class="section skills" id="skills">
+          <div class="container">
+            <p class="section-subtitle">My Skills</p>
+
+            <h2 class="h2 section-title">My Tech Stack</h2>
+
+            <p class="section-text"></p>
+
+            <ul class="skills-list">
+              <li class="skills-item">
+                <div class="wrapper" style="width: 95%">
+                  <h3 class="skills-title">Python</h3>
+                  <data class="skills-data" value="95">95%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 85%">
+                  <h3 class="skills-title">C++</h3>
+
+                  <data class="skills-data" value="85">85%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 85%">
+                  <h3 class="skills-title">SQL</h3>
+
+                  <data class="skills-data" value="85">85%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 60%">
+                  <h3 class="skills-title">JavaScript</h3>
+
+                  <data class="skills-data" value="60">60%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 60%">
+                  <h3 class="skills-title">CSS</h3>
+
+                  <data class="skills-data" value="60">60%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 60%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CONTACT
+      -->
+
+        <section class="section contact" id="contact">
+          <div class="container">
+            <div class="contact-card">
+              <p class="card-subtitle">Don't be shy</p>
+
+              <h2 class="h2 section-title">Drop Me a Line</h2>
+
+              <div class="wrapper">
+                <form action="" class="contact-form">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    required
+                    class="contact-input"
+                  />
+
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                    class="contact-input"
+                  />
+
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    required
+                    class="contact-input"
+                  ></textarea>
+
+                  <button type="submit" class="btn-submit">
+                    Submit Message
+                  </button>
+                </form>
+
+                <ul class="contact-list">
+                  <!-- Address goes here
+                    <li class="contact-item">
+                    <div class="contact-icon">
+                      <ion-icon name="location"></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="contact-item-title">Address</h3>
+
+                      <address class="contact-item-link">
+                        20, London, United Kingdom
+                      </address>
+                    </div>
+                  </li> -->
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <ion-icon name="mail"></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="contact-item-title">Email</h3>
+
+                      <a
+                        href="mailto:sabari.ss1907@gmail.com"
+                        class="contact-item-link"
+                        >sabari.ss1907@gmail.com</a
+                      >
+                    </div>
+                  </li>
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <ion-icon name="call"></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="contact-item-title">Phone</h3>
+
+                      <a href="" class="contact-item-link">813*******</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li>
+            <a href="https://www.linkedin.com/in/sabari50312/" target="_blank"
+              ><ion-icon name="logo-linkedin" class="contact-icon"></ion-icon>
+              <text>LinkedIn</text></a
+            >
+          </li>
+
+          <li>
+            <a href="https://github.com/sabari50312" target="_blank"
+              ><ion-icon name="logo-github" class="contact-icon"></ion-icon>
+              <text>Github</text>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
